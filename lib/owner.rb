@@ -1,8 +1,7 @@
 class Owner
 
-  def initialize(pets)
-    @pets = {fishes: [], cats: [], dogs: []}
-    
+  def initialize
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
 end
